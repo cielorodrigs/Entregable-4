@@ -1,0 +1,35 @@
+.form-container{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0002;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px) ;
+    transition: transform 200ms ease;
+}
+
+.close_form{
+    transform: translateX(-100%);
+}
+.App_btn{
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5em 2em;
+    background-color: #555a88;
+}
+.user-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    width: 100%;
+    max-width: 1200px;
+    gap: 2em;
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+}
